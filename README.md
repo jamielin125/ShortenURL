@@ -3,22 +3,28 @@
 使用 Django 1.9  
 提供簡易縮網址的服務
 
-## 安裝套件
-
-Django==1.9
-django-hosts==2.0
-
-## 執行Django
-
-cd path/to/my/project
-
-django-admin.py startproject ShortenURL
+## 前置設定
 
 ### 建立虛擬環境
+
+cd path/to/my/project
 
 virtualenv . 
 
 source bin/active
+
+### 安裝套件
+
+Django==1.9
+
+django-hosts==2.0
+
+### 開始 Project
+
+django-admin.py startproject ShortenURL
+
+
+## 執行Django
 
 ### 模型與資料庫之同步
 
